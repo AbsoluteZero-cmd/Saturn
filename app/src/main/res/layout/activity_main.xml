@@ -20,11 +20,10 @@
     </TextView>
 
     <TextView
-        android:id="@+id/Speed"
+        android:id="@+id/speed"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:textColor="@color/attributes"
-        android:text="@string/speed_name"
+        android:text="speed_name"
         android:textSize="23sp"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="230sp"
@@ -37,7 +36,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="260sp"
-        android:text="@string/speed_value"
+        android:text="speed_value"
         android:textColor="@color/main_text"
         android:textSize="20sp">
 
@@ -49,8 +48,8 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="300sp"
-        android:text="@string/fuel_name"
-        android:textColor="@color/attributes"
+        android:text="fuel_name"
+        android:textColor="@color/button"
         android:textSize="23sp">
 
     </TextView>
@@ -61,8 +60,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="330sp"
-        android:text="@string/fuel_value"
-        android:textColor="@color/main_text"
+        android:text="fuel_value"
         android:textSize="20sp">
 
     </TextView>
@@ -73,8 +71,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="370sp"
-        android:text="@string/weight_name"
-        android:textColor="@color/attributes"
+        android:text="weight_name"
         android:textSize="23sp">
 
     </TextView>
@@ -85,8 +82,7 @@
         android:layout_height="match_parent"
         android:layout_marginLeft="50sp"
         android:layout_marginTop="400sp"
-        android:text="@string/weight_value"
-        android:textColor="@color/main_text"
+        android:text="weight_value"
         android:textSize="20sp">
 
     </TextView>
