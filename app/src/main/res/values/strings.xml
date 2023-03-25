@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Saturn</string>
-    <string name="rocket_name">SATURN V</string>    w
+    <color name="blue">#007AE7</color>
+    
 </resources>

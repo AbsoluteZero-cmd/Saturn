@@ -1,9 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondScreen">
+    tools:context=".SecondScreen"
+    android:padding="15dp"
+    android:paddingHorizontal="30dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:showDividers="middle"
+        android:divider="@drawable/empty_tall_divider">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/toolbar_elements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elements"
+            android:background="transparent">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/toolbar_engines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Engines"
+            android:background="transparent">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/toolbar_crew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crew"
+            android:background="transparent">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/toolbar_interstage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Interstage"
+            android:background="transparent">
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/row1"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="middle"
+            android:divider="@drawable/empty_tall_divider">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Design"
+                android:layout_marginBottom="10dp">
+            </TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:text="Color"
+                android:textFontWeight="700"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Size"
+                android:layout_marginBottom="10dp">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Shape">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="165dp"
+        android:layout_height="270dp"
+        android:background="@drawable/rounded_border_rectangle"
+        android:layout_below="@+id/row2"
+        android:layout_marginTop="20dp"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Required"
+            android:textColor="@color/white">
+        </TextView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
