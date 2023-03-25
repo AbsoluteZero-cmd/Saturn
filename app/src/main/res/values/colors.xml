@@ -3,5 +3,6 @@
     <color name="button">#007AE7</color>
     <color name="text">#D0D0D0</color>
     <color name="main_text">#EEEEEE</color>
+    <color name="attributes">D0D0D0</color>
     <color name="background">#FF040820</color>
 </resources>

@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Saturn</string>
-    <color name="blue">#007AE7</color>
-    
+    <string name="rocket_name">SATURN V</string>
+    <string name="speed_name">Speed</string>
+    <string name="fuel_name">Fuel</string>
+    <string name="weight_name">Weight</string>
+    <string name="speed_value">25000 km/h</string>
+    <string name="fuel_value">2076500 kg</string>
+    <string name="weight_value">2900 tonnes </string>
 </resources>

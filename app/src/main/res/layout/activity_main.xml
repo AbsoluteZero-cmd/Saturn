@@ -11,9 +11,8 @@
         android:id="@+id/name_rocket"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="230sp"
+        android:layout_marginLeft="225sp"
         android:layout_marginTop="120sp"
-        android:text="@string/rocket_name"
         android:textColor="@color/main_text"
         android:textSize="35sp"
         tools:text="SATURN V">
@@ -21,9 +20,75 @@
     </TextView>
 
     <TextView
+        android:id="@+id/Speed"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:text=""
+        android:textColor="@color/attributes"
+        android:text="@string/speed_name"
+        android:textSize="23sp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="230sp"
         >
     </TextView>
+
+    <TextView
+        android:id="@+id/speed_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="260sp"
+        android:text="@string/speed_value"
+        android:textColor="@color/main_text"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/fuel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="300sp"
+        android:text="@string/fuel_name"
+        android:textColor="@color/attributes"
+        android:textSize="23sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/fuel_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="330sp"
+        android:text="@string/fuel_value"
+        android:textColor="@color/main_text"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/Fuel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="370sp"
+        android:text="@string/weight_name"
+        android:textColor="@color/attributes"
+        android:textSize="23sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/weight_value"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="400sp"
+        android:text="@string/weight_value"
+        android:textColor="@color/main_text"
+        android:textSize="20sp">
+
+    </TextView>
+
 </RelativeLayout>
