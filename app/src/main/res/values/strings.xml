@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Saturn</string>
+    <color name="blue">#007AE7</color>
 </resources>
